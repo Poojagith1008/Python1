@@ -1,3 +1,8 @@
+
+#Problem statement: 
+#Write a python program to detect if a point is inside a rectangle defined by points (x1,y1), (x2,y2), (x3,y3) and (x4,y4)
+
+
 def point_in_rectangle(x, y, x1, y1, x2, y2, x3, y3, x4, y4):
     # calculate the slopes of the lines formed by the points
     slope1 = (y2 - y1) / (x2 - x1)
