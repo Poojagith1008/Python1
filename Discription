@@ -1,4 +1,0 @@
-#The function takes as inputs the point to be checked (x and y), and the four points defining the rectangle (x1, y1, x2, y2, x3, y3, and x4, y4). 
-#The function calculates the slopes of the lines formed by each pair of points defining the rectangle.
-#If the point is inside the rectangle, it will be on the same side of each of the lines. 
-#The function returns True if the point is inside the rectangle, and False otherwise.
