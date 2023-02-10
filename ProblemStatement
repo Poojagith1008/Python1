@@ -1,0 +1,12 @@
+def point_in_rectangle(x, y, x1, y1, x2, y2, x3, y3, x4, y4):
+    # calculate the slopes of the lines formed by the points
+    slope1 = (y2 - y1) / (x2 - x1)
+    slope2 = (y4 - y3) / (x4 - x3)
+    slope3 = (y4 - y1) / (x4 - x1)
+    slope4 = (y2 - y3) / (x2 - x3)
+
+    # check if the point is inside the rectangle by checking if it is on the same side of each line
+    if (slope1 * (x - x1) + y1 - y > 0) == (slope2 * (x - x3) + y3 - y > 0) and (slope3 * (x - x1) + y1 - y > 0) == (
+            slope4 * (x - x3) + y3 - y > 0):
+        return True
+    return False
