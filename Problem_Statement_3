@@ -1,1 +1,125 @@
 
+## While Loop
+
+
+
+
+# 1: Write a program to display numbers from 1 to 50
+
+#a = int(input("Enter Value: "))-
+a = 1
+while a<=50:
+    print(a)
+    a+=1
+
+
+# 2: Write a program to display numbers from 50 to 1
+a = 50
+while a>=1:
+    print(a)
+    a-=1
+
+
+
+# 3: Write a program to display odd numbers from 1 to 100
+
+a=1
+while a<=100:
+    print(a)
+    a+=2
+
+
+
+# 3: Write a program to display even numbers from 1 to 100
+
+a=100
+while a>=2:
+    print(a)
+    a-=2
+
+# A
+a=2
+while a<=100:
+    print(a)
+    a+=2
+
+
+
+# 4: Write a program to display sum of first 50
+
+a = 1
+sum= 0
+while a<=50:
+    sum +=a
+    a+=1
+print(sum)   
+
+
+
+# 5: Write a program to display multipliction of first 10
+
+a = 1
+mul = 1
+while a<=10:
+    mul *=a
+    a+=1
+print(mul) 
+
+
+
+# 6: Write a program to display sum of given range of numbers
+
+a = int(input("Enter Value :"))
+b = int(input("Enter Value :"))
+
+sum= 0
+while a<=b:
+    sum +=a
+    a+=1
+print(sum)
+
+
+
+# 6: Write a program to display multipliction table
+
+a = 1
+b = 3
+while a<=10:
+    mul = a*b
+    a+=1
+    print(mul)
+
+#A
+a = 1
+b = int(input("Display table of :"))
+while a<=10:
+    mul = a*b
+    a+=1
+    print(mul)
+
+
+
+
+# 7.py
+
+#1. Calculate Sum of Digits of given number
+
+n = int(input("Enter Value"))
+rem = 0
+sum =  0
+while n != 0:
+    rem = int(n%10)
+    sum += rem
+    n = int()
+print("sum = ", sum)
+
+
+# Write a program to calculate factorial of given number
+
+n = int(input("Enter value: "))
+fac = 1 
+
+while n>=1:
+    fac *= n 
+    n -= 1
+print('fac =', fac)
