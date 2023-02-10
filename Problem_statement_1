@@ -1,7 +1,9 @@
 
  
-# Write a python program to detect if a point is inside a rectangle defined by points (x1,y1), (x2,y2), (x3,y3) and (x4,y4)
+##  Write a python program to detect if a point is inside a rectangle defined by points (x1,y1), (x2,y2), (x3,y3) and (x4,y4)
 
+
+## Solution
 
 def point_in_rectangle(x, y, x1, y1, x2, y2, x3, y3, x4, y4):
     # calculate the slopes of the lines formed by the points
@@ -15,3 +17,12 @@ def point_in_rectangle(x, y, x1, y1, x2, y2, x3, y3, x4, y4):
             slope4 * (x - x3) + y3 - y > 0):
         return True
     return False
+
+
+
+## Explanation:
+
+#The function takes as inputs the point to be checked (x and y), and the four points defining the rectangle (x1, y1, x2, y2, x3, y3, and x4, y4). 
+#The function calculates the slopes of the lines formed by each pair of points defining the rectangle.
+#If the point is inside the rectangle, it will be on the same side of each of the lines. 
+#The function returns True if the point is inside the rectangle, and False otherwise.
